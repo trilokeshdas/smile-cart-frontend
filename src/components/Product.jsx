@@ -3,7 +3,7 @@ import { Typography } from "neetoui";
 const Product = () => (
   <div className="px-6 pb-6">
     <div>
-      <Typography className="py-2" style="h1" weight="bold">
+      <Typography className="py-2 font-semibold" style="h1">
         Infinix INBOOK
       </Typography>
       <hr className="border-2 border-black" />
@@ -21,10 +21,8 @@ const Product = () => (
           Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey - 1 Year Warranty.
         </Typography>
         <Typography>MRP: $395.97</Typography>
-        <Typography weight="bold">Offer price: $374.43</Typography>
-        <Typography className=" text-green-600" weight="bold">
-          6% off
-        </Typography>
+        <Typography className="font-semibold">Offer price: $374.43</Typography>
+        <Typography className="font-semibold text-green-600">6% off</Typography>
       </div>
     </div>
   </div>
